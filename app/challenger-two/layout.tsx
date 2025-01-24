@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -8,7 +7,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Fe Challengers | Tai Nguyen",
+  title: "Recipe page",
   description: "Fe Challengers",
 };
 

@@ -17,6 +17,9 @@ export default {
           900: "#1F314F",
         },
         white: "#FFFFFF",
+        blue: {
+          600: "#2C7DFA",
+        },
       },
       boxShadow: {
         card: "0px 25px 25px 0px rgba(0, 0, 0, 0.05)",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Challengers1 = () => {
+const QRCode = () => {
   return (
     <>
       <section className="bg-slate-300 w-screen h-screen flex">
@@ -10,7 +10,9 @@ const Challengers1 = () => {
             <p className="font-bold text-[22px] leading-[26px] text-slate-900">
               Improve your front-end skills by building projects
             </p>
-            <p className="text-[15px] leading-[21px] text-slate-500 tracking-[0.2px]">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            <p className="text-[15px] leading-[21px] text-slate-500 tracking-[0.2px]">
+              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
           </div>
         </div>
       </section>
@@ -18,4 +20,4 @@ const Challengers1 = () => {
   );
 };
 
-export default Challengers1;
+export default QRCode;
