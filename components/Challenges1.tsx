@@ -3,7 +3,7 @@ import Image from "next/image";
 const Challengers1 = () => {
   return (
     <>
-      <section className="bg-slate-300 w-screen h-screen flex font-[outfit]">
+      <section className="bg-slate-300 w-screen h-screen flex">
         <div className="bg-white max-w-80 w-80 min-h-[499px] max-h-[499px] m-auto p-4 rounded-[20px] shadow-card space-y-4">
           <Image src="/qr.png" width={288} height={288} alt="" />
           <div className="px-4 text-center space-y-4">
