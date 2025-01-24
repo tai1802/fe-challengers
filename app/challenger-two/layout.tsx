@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Outfit, Young_Serif } from "next/font/google";
+
+const youngSerif = Young_Serif({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -16,9 +21,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={`${outfit.className} antialiased`}>{children}</body>
-    </html>
-  );
+  return <div className={`${youngSerif.className} ${outfit.className} bg-stone-100 flex antialiased`}>{children}</div>;
 }

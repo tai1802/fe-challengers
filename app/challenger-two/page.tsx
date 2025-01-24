@@ -1,4 +1,5 @@
+import Recipe from "@/components/Recipe";
 
 export default function Home() {
-  return <section></section>;
+  return <Recipe />;
 }
