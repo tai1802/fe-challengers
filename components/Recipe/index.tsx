@@ -1,8 +1,9 @@
 "use client";
 
 import ListItem from "./ListItem";
+import NutritionTable from "./NutritionTable";
 
-// import Image from "next/image";
+import Image from "next/image";
 
 const Recipe = () => {
   const ingredients: string[] = [
@@ -22,15 +23,34 @@ const Recipe = () => {
     `<span class="font-bold mr-2">Enjoy:</span>Serve hot, with additional salt and pepper if needed.`,
   ];
 
+  const nutrition: { key: string; value: string }[] = [
+    {
+      key: "Calories",
+      value: "277kcal",
+    },
+    {
+      key: "Carbs",
+      value: "0g",
+    },
+    {
+      key: "Protein",
+      value: "20g",
+    },
+    {
+      key: "Fat",
+      value: "22g",
+    },
+  ];
+
   return (
     <section className="container bg-white mx-auto m-10 rounded-[20px] p-8 text-stone-600 flex flex-col gap-6">
-      {/* <Image
+      <Image
         src="/image-omelette.jpeg"
         width={1024}
         height={500}
         className="object-contain rounded-[10px] w-full h-full"
         alt=""
-      /> */}
+      />
       <h1 className="text-4xl">Simple Omelette Recipe</h1>
       <div className="space-y-6">
         <p className="">
@@ -54,30 +74,11 @@ const Recipe = () => {
       </div>
       <ListItem title="Ingredients" items={ingredients} />
       <ListItem title="Instructions" items={instructions} type="decimal" />
-      <div>
-        <p className="text-brown-800 text-2xl">Nutrition</p>
-        <p>The table below shows nutritional values per serving without the additional fillings</p>
-        <table className="w-full">
-          <tbody>
-            <tr>
-              <td>Calories</td>
-              <td>277kcal</td>
-            </tr>
-            <tr>
-              <td>Carbs</td>
-              <td>0g</td>
-            </tr>
-            <tr>
-              <td>Protein</td>
-              <td>20g</td>
-            </tr>
-            <tr>
-              <td>Fat</td>
-              <td>22g</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <NutritionTable
+        title="Nutrition"
+        subtitle="The table below shows nutritional values per serving without the additional fillings"
+        items={nutrition}
+      />
     </section>
   );
 };

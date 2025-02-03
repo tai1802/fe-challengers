@@ -10,7 +10,7 @@ interface IProps {
 const ListItem: React.FC<IProps> = ({ title, type = "disc", items = [] }) => {
   return (
     <Fragment>
-      <div className="space-y-3">
+      <div className="space-y-5">
         <p className="text-brown-800 text-2xl">{title}</p>
         <ul className={twMerge("text-stone-600 ml-6 space-y-2", type === "disc" ? "list-disc " : "list-decimal")}>
           {items?.map((item, index) => (
