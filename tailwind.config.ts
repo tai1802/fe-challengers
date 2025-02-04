@@ -37,6 +37,14 @@ export default {
           50: "hsl(330, 100%, 98%)",
           800: "hsl(332, 51%, 32%)",
         },
+        green: {
+          default: "hsl(75, 94%, 57%)",
+        },
+        grey: {
+          700: "hsl(0, 0%, 20%)",
+          800: "hsl(0, 0%, 12%)",
+          900: "hsl(0, 0%, 8%)",
+        },
       },
       boxShadow: {
         card: "0px 25px 25px 0px rgba(0, 0, 0, 0.05)",
