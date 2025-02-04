@@ -45,9 +45,17 @@ export default {
           800: "hsl(0, 0%, 12%)",
           900: "hsl(0, 0%, 8%)",
         },
+        yellow: {
+          default: "hsl(47, 88%, 63%)",
+        },
+        gray: {
+          500: "hsl(0, 0%, 42%)",
+          950: "hsl(0, 0%, 7%)",
+        },
       },
       boxShadow: {
         card: "0px 25px 25px 0px rgba(0, 0, 0, 0.05)",
+        blog: "10px 10px 5px rgba(0, 0, 0, 0.8)",
       },
     },
   },

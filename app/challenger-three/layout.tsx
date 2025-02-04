@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Recipe page",
+  title: "Social links profile",
   description: "Fe Challengers",
 };
 
@@ -16,5 +16,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div className={`${inter.className} bg-grey-900 flex antialiased w-screen h-screen`}>{children}</div>;
+  return <div className={`${inter.className} bg-grey-900 flex antialiased w-screen h-screen text-sm`}>{children}</div>;
 }
