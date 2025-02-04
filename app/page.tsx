@@ -27,6 +27,10 @@ export default function Home() {
       name: "challenger 5",
       path: "/challenger-five",
     },
+    {
+      name: "challenger 6",
+      path: "/challenger-six",
+    },
   ];
   return (
     <section className="h-screen w-screen flex bg-slate-300">
