@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
-const inter = Inter({
+const workSans = Work_Sans({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Social links profile",
+  title: "FAQ accordion",
   description: "Fe Challengers",
 };
 
@@ -16,5 +16,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div className={`${inter.className} bg-grey-900 flex antialiased w-screen h-screen text-sm`}>{children}</div>;
+  return <div className={`${workSans.className} flex antialiased w-screen h-screen`}>{children}</div>;
 }

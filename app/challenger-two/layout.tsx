@@ -8,7 +8,7 @@ const youngSerif = Young_Serif({
 
 const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {

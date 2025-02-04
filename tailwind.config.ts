@@ -11,6 +11,7 @@ export default {
       screens: {
         mobile: "375px",
         desktop: "1440px",
+        xs: "480px",
       },
       colors: {
         background: "var(--background)",
@@ -52,6 +53,9 @@ export default {
           500: "hsl(0, 0%, 42%)",
           950: "hsl(0, 0%, 7%)",
         },
+        "light-pink": "hsl(275, 100%, 97%)",
+        "grayish-purple": "hsl(292, 16%, 49%)",
+        "dark-purple": "hsl(292, 42%, 14%)",
       },
       boxShadow: {
         card: "0px 25px 25px 0px rgba(0, 0, 0, 0.05)",

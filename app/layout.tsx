@@ -10,6 +10,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Fe Challengers | Tai Nguyen",
   description: "Fe Challengers",
+  icons: "/favicon-32x32.png"
 };
 
 export default function RootLayout({
