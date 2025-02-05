@@ -68,7 +68,7 @@ export default {
           "violet-blue": "hsla(256, 72%, 46%, 1)",
           "persian-blue": "hsla(241, 72%, 46%, 0)",
         },
-        Neutral: {
+        neutral: {
           "pale-blue": "hsl(221, 100%, 96%)",
           "light-lavender": "hsl(241, 100%, 89%)",
           "dark-gray-blue": "hsl(224, 30%, 27%)",
