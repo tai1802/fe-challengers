@@ -61,6 +61,7 @@ export default {
           "orangey-yellow": "hsl(39, 100%, 56%)",
           "green-teal": "hsl(166, 100%, 37%)",
           "cobalt-blue": "hsl(234, 85%, 45%)",
+          orange: "hsl(25, 97%, 53%)",
         },
         gradients: {
           "light-slate-blue": "hsl(252, 100%, 67%)",
@@ -72,7 +73,10 @@ export default {
           "pale-blue": "hsl(221, 100%, 96%)",
           "light-lavender": "hsl(241, 100%, 89%)",
           "dark-gray-blue": "hsl(224, 30%, 27%)",
-        }
+          "light-grey": "hsl(217, 12%, 63%)",
+          "dark-blue": "hsl(213, 19%, 18%)",
+          "very-dark-blue": "hsl(216, 12%, 8%)",
+        },
       },
       boxShadow: {
         card: "0px 25px 25px 0px rgba(0, 0, 0, 0.05)",
