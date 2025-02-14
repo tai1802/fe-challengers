@@ -4,7 +4,7 @@ const NFTPreviewCard = () => {
   return (
     <>
       <div className="w-full max-w-80 rounded-xl bg-dark-card m-auto p-5 flex flex-col gap-5">
-        <div className="rounded-xl group relative w-[280px] h-[280px]">
+        <div className="rounded-xl group relative w-[280px] h-[280px] hover:cursor-pointer">
           <div className="w-full h-full rounded-xl group-hover:bg-primary-cyan z-10 absolute group-hover:opacity-40"></div>
           <div className="w-full h-full absolute z-20 invisible group-hover:visible flex">
             <Image src="/icon-view.svg" alt="" width={40} height={40} className="z-20 m-auto" />
