@@ -62,6 +62,8 @@ export default {
           "green-teal": "hsl(166, 100%, 37%)",
           "cobalt-blue": "hsl(234, 85%, 45%)",
           orange: "hsl(25, 97%, 53%)",
+          "soft-blue": "hsl(215, 51%, 70%)",
+          cyan: "hsl(178, 100%, 50%)",
         },
         gradients: {
           "light-slate-blue": "hsl(252, 100%, 67%)",
@@ -76,6 +78,11 @@ export default {
           "light-grey": "hsl(217, 12%, 63%)",
           "dark-blue": "hsl(213, 19%, 18%)",
           "very-dark-blue": "hsl(216, 12%, 8%)",
+        },
+        dark: {
+          bg: "hsl(217, 54%, 11%)",
+          card: "hsl(216, 50%, 16%)",
+          line: "hsl(215, 32%, 27%)",
         },
       },
       boxShadow: {
